@@ -1,0 +1,50 @@
+[
+    {
+        "profile": "https://www.einerd.com.br/wp-content/uploads/2019/12/Batman-capa-890x466.jpg",
+        "picture": "https://www.einerd.com.br/wp-content/uploads/2019/12/Batman-capa-890x466.jpg",
+        "likes": 80,
+        "comments": 20,
+        "message": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur",
+        "name": "Batman"
+    },
+    {
+        "profile": "https://legadodadc.com.br/wp-content/uploads/2021/07/sm78-cv1-btc-ms-min-00151-1277498.jpeg",
+        "picture": "https://kanto.legiaodosherois.com.br/w760-h398-gnw-cfill-q95/wp-content/uploads/2022/02/legiao_uhKXmlkwrDB4.png.jpeg",
+        "likes": 100,
+        "comments": 70,
+        "message": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+        "name": "Superman"
+    },
+    {
+        "profile": "https://kanto.legiaodosherois.com.br/w760-h398-gnw-cfill-q80/wp-content/uploads/2021/02/legiao_xXWbA8zHCqZt.png.jpeg",
+        "picture": "https://t.ctcdn.com.br/GTD_VWyayR-WBuZPgeKYrYixWJY=/1400x788/smart/filters:format(webp)/i519239.png",
+        "likes": 100,
+        "comments": 70,
+        "message": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
+        "name": "Flash"
+    },
+    {
+        "profile": "https://terraverso.com.br/wp-content/uploads/2020/09/ww84-Nicola.jpg",
+        "picture": "https://oimparcial.com.br/app/uploads/2020/12/Captura-de-tela-2020-12-18-201239.jpg",
+        "likes": 20,
+        "comments": 35,
+        "message": "to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+        "name": "Mulher Maravilha"
+    },
+    {
+        "profile": "https://static1.purebreak.com.br/articles/6/39/27/6/@/187335-filme-liga-da-justica-jason-momoa-aq-diapo-1.jpg",
+        "picture": "https://s2.glbimg.com/xvjr4csiPl7ixCE-sTg3MkO0wHA=/e.glbimg.com/og/ed/f/original/2018/07/20/aqua10.png",
+        "likes": 80,
+        "comments": 40,
+        "message": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+        "name": "Aquaman"
+    },
+    {
+        "profile": "https://kanto.legiaodosherois.com.br/w760-h398-gnw-cfill-q80/wp-content/uploads/2021/01/legiao_dEucyK5gnDCl.png.jpeg",
+        "picture": "https://ovicio.com.br/wp-content/uploads/2021/08/20210829-ovicio-cyborg-skin.jpg",
+        "likes": 80,
+        "comments": 40,
+        "message": "oi foto acessada",
+        "name": "Cyborg"
+    }
+]
