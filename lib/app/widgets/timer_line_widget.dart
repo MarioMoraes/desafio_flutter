@@ -104,26 +104,32 @@ class _TimerLineWidgetState extends State<TimerLineWidget> {
             padding: const EdgeInsets.only(left: 10.0),
             child: Text(
               '${widget.likes} likes',
-              style: const TextStyle(fontWeight: FontWeight.bold),
+              style: const TextStyle(
+                fontWeight: FontWeight.bold,
+              ),
             ),
           ),
         ),
         Padding(
-          padding: const EdgeInsets.only(left: 10.0),
+          padding: const EdgeInsets.only(left: 10.0, top: 5),
           child: RichText(
             text: TextSpan(
               style: DefaultTextStyle.of(context).style,
               children: <TextSpan>[
                 TextSpan(
-                    text: widget.name.toLowerCase() + ' ',
-                    style: const TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 12,
-                    )),
+                  text: widget.name.toLowerCase() + ' ',
+                  style: const TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 12,
+                  ),
+                ),
                 TextSpan(
-                    text: widget.message,
-                    style: const TextStyle(
-                        fontSize: 12, overflow: TextOverflow.ellipsis)),
+                  text: widget.message,
+                  style: const TextStyle(
+                    fontSize: 12,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                ),
               ],
             ),
           ),
@@ -139,7 +145,7 @@ class _TimerLineWidgetState extends State<TimerLineWidget> {
               '${widget.comments} comments',
               style: const TextStyle(
                 fontWeight: FontWeight.w300,
-                color: Colors.white30,
+                color: Colors.white54,
                 fontSize: 12,
               ),
             ),
