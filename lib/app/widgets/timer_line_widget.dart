@@ -42,7 +42,7 @@ class _TimerLineWidgetState extends State<TimerLineWidget> {
               ),
             ),
             const SizedBox(
-              width: 5,
+              width: 2,
             ),
             Text(
               widget.name.toLowerCase(),
@@ -77,14 +77,14 @@ class _TimerLineWidgetState extends State<TimerLineWidget> {
             IconButton(
               onPressed: () {},
               icon: const Icon(
-                Icons.comment,
+                Icons.chat_outlined,
                 size: 25,
               ),
             ),
             IconButton(
               onPressed: () {},
               icon: const Icon(
-                Icons.send,
+                Icons.send_outlined,
                 size: 25,
               ),
             ),
@@ -101,7 +101,7 @@ class _TimerLineWidgetState extends State<TimerLineWidget> {
         Align(
           alignment: Alignment.centerLeft,
           child: Padding(
-            padding: const EdgeInsets.only(left: 15.0, top: 10),
+            padding: const EdgeInsets.only(left: 15.0),
             child: Text(
               '${widget.likes} likes',
               style: const TextStyle(fontWeight: FontWeight.bold),

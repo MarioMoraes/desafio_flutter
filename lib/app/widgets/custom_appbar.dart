@@ -10,9 +10,8 @@ class CustomAppBar extends AppBar {
           title: const Text(
             'Instagram',
             style: TextStyle(
-              fontSize: 38,
+              fontSize: 36,
               fontFamily: 'Birthstone',
-              fontStyle: FontStyle.normal,
             ),
           ),
           actions: [
@@ -27,13 +26,6 @@ class CustomAppBar extends AppBar {
               onPressed: () {},
               icon: const Icon(
                 Icons.favorite_border,
-                size: 27,
-              ),
-            ),
-            IconButton(
-              onPressed: () {},
-              icon: const Icon(
-                Icons.message_outlined,
                 size: 27,
               ),
             ),
