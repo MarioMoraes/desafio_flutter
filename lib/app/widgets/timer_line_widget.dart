@@ -126,6 +126,7 @@ class _TimerLineWidgetState extends State<TimerLineWidget> {
                 TextSpan(
                   text: widget.message,
                   style: const TextStyle(
+                    fontWeight: FontWeight.w300,
                     fontSize: 12,
                     overflow: TextOverflow.ellipsis,
                   ),
