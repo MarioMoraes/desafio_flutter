@@ -1,6 +1,12 @@
 # desafio_flutter
 
+
 A new Flutter project.
+
+Instagram Clone
+This project was developed as a challenge for the Flutter Academy course
+
+
 
 ## Getting Started
 
