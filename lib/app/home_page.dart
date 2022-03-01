@@ -48,61 +48,62 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: CustomAppBar(),
-        body: Container(
-          width: MediaQuery.of(context).size.width,
-          height: MediaQuery.of(context).size.height,
-          color: Colors.black,
-          child: SingleChildScrollView(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.start,
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                SizedBox(
-                  height: MediaQuery.of(context).size.height * .15,
-                  child: Padding(
-                    padding: const EdgeInsets.only(left: 10, right: 10),
-                    child: ListView.builder(
-                      scrollDirection: Axis.horizontal,
-                      shrinkWrap: true,
-                      itemCount: users.length,
-                      itemBuilder: (context, index) {
-                        return Padding(
-                          padding: const EdgeInsets.only(right: 10),
-                          child: avatarUser(
-                            imageUrl: users[index].url,
-                            live: users[index].live,
-                            name: users[index].name,
-                          ),
-                        );
-                      },
-                    ),
-                  ),
-                ),
-                const SizedBox(
-                  height: 20,
-                ),
-                SingleChildScrollView(
+      appBar: CustomAppBar(),
+      body: Container(
+        width: MediaQuery.of(context).size.width,
+        height: MediaQuery.of(context).size.height,
+        color: Colors.black,
+        child: SingleChildScrollView(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              SizedBox(
+                height: MediaQuery.of(context).size.height * .15,
+                child: Padding(
+                  padding: const EdgeInsets.only(left: 10, right: 10),
                   child: ListView.builder(
-                    physics: const NeverScrollableScrollPhysics(),
+                    scrollDirection: Axis.horizontal,
                     shrinkWrap: true,
-                    scrollDirection: Axis.vertical,
-                    itemCount: timeline.length,
-                    itemBuilder: (_, index) {
-                      return TimerLineWidget(
-                        profile: timeline[index].profile,
-                        name: timeline[index].name,
-                        picture: timeline[index].picture,
-                        message: timeline[index].message,
-                        likes: timeline[index].likes,
-                        comments: timeline[index].comments,
+                    itemCount: users.length,
+                    itemBuilder: (context, index) {
+                      return Padding(
+                        padding: const EdgeInsets.only(right: 10),
+                        child: avatarUser(
+                          imageUrl: users[index].url,
+                          live: users[index].live,
+                          name: users[index].name,
+                        ),
                       );
                     },
                   ),
-                )
-              ],
-            ),
+                ),
+              ),
+              const SizedBox(
+                height: 20,
+              ),
+              SingleChildScrollView(
+                child: ListView.builder(
+                  physics: const NeverScrollableScrollPhysics(),
+                  shrinkWrap: true,
+                  scrollDirection: Axis.vertical,
+                  itemCount: timeline.length,
+                  itemBuilder: (_, index) {
+                    return TimerLineWidget(
+                      profile: timeline[index].profile,
+                      name: timeline[index].name,
+                      picture: timeline[index].picture,
+                      message: timeline[index].message,
+                      likes: timeline[index].likes,
+                      comments: timeline[index].comments,
+                    );
+                  },
+                ),
+              )
+            ],
           ),
-        ));
+        ),
+      ),
+    );
   }
 }
