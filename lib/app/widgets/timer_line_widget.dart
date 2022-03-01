@@ -114,6 +114,7 @@ class _TimerLineWidgetState extends State<TimerLineWidget> {
           padding: const EdgeInsets.only(left: 10.0, top: 5),
           child: RichText(
             text: TextSpan(
+              text: '',
               style: DefaultTextStyle.of(context).style,
               children: <TextSpan>[
                 TextSpan(
